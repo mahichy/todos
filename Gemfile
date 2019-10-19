@@ -20,7 +20,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'spring', group: :development
 
 group :development, :test do
-	gem 'rspec-rails', '~>2.8'  
+	gem 'rspec-rails'
 end
 
 group :test do
