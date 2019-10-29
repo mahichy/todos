@@ -1,6 +1,6 @@
 require "rails_helper"
 
-feature "User create todos" do
+feature "User creates todos" do
 	scenario "successfully" do 
 		visit root_path
 
@@ -8,6 +8,6 @@ feature "User create todos" do
 		fill_in "title", with:"Buy milk"
 		click_on "Submit"
 
-		expect(page).to have_css ".todos li", text: "Buy milk"
+		expect(page).to have_css".todos li", text: "Buy milk"
 	end
 end
